@@ -5,7 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { ARButton, XR, Controllers, Interactive } from "@react-three/xr";
 import { Text, useGLTF } from "@react-three/drei";
 
-function Model({ url }: { url: string }) {
+function Model({ url }) {
   const { scene } = useGLTF(url);
 
   return (
